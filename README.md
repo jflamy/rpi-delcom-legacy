@@ -1,4 +1,4 @@
-# rpi-mate-legacy
+# rpi-delcom-legacy
 Raspberry Pi Ubuntu Mate 16.04 image for use with old Delcom USB keypads.
 
 Delcom USB keypads are perfect for use with owlcms4 .
