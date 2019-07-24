@@ -7,5 +7,9 @@ This was claimed to be fixed in v4.18 of the kernel, but 4.19 kernels don't reco
 
 Furthermore, the workaround (changing the device ID) only works with Delcom switches newer than firmware 53.
 
-This image is a Ubuntu Mate 16.04 image with old enough kernel, but which stil has recent updates for Chromium and TeamViewer.
-It has been tweaked to not go to screen saver/sleep.
+This image is a Ubuntu Mate 16.04 image with an old-enough kernel to support old Delcom switches, but which stil has recent updates for Chromium and TeamViewer.  It has been tweaked to not go to screen saver/sleep.
+
+Notes:
+  * When using owlcms4, by default the sounds for the down signal and for the timer warnings (90, 30 and 0 seconds) are produced by the browser.  Under Ubuntu Mate 16.04 for Rasberry Pi, this doesn't work (sounds are late and/or distorted). The issue does not occur on other OS (Raspbian, ChromeOS, etc.) but none of these work with older Delcoms.
+    * The work-around is to generate the sounds on the server.  Use the "Prepare Competition/Define Fields of Play" buttons to select an audio output for the main laptop (same as things were in owlcms2)
+    * This does imply that you cannot use Delcoms on a Raspberry if the server is running in the cloud. You need another kind of device (Chromebook, Windows).
