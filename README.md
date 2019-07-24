@@ -1,7 +1,7 @@
 # rpi-delcom-legacy
 Raspberry Pi Ubuntu Mate 16.04 image for use with RPI 3/3+ with old Delcom USB keypads.
 
-[Delcom USB keypads](https://www.delcomproducts.com/productdetails.asp?PartNumber=706502-5M) are perfect for use with owlcms4 .
+[Delcom USB keypads](https://www.delcomproducts.com/productdetails.asp?PartNumber=706502-5M) are perfect for use with owlcms4 as explained [here](https://jflamy.github.io/owlcms4/#/Refereeing?id=usb-or-bluetooth-keypads).
 Except for one issue: Delcom [broke the Linux driver in version 4.8](http://www.delcomproducts.com/webnote.asp?id=3) of the kernel, and Raspberry Stretch / Buster no longer recognizes them as keyboards
 This was claimed to be fixed in v4.18 of the kernel, but 4.19 kernels don't recognize the Delcoms either.
 
